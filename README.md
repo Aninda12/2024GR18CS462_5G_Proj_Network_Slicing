@@ -34,7 +34,7 @@ To get started, you can clone the repository and set up your local environment. 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/5g-network-slicing-simulation.git
+    git clone https://github.com/rohan-chandrashekar/5g-network-slicing-simulation.git
     cd 5g-network-slicing-simulation
     ```
 
