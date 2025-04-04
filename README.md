@@ -101,3 +101,8 @@ Contributions are welcome! If you're interested in improving this project, feel 
 3. Commit your changes (`git commit -m 'Add awesome feature'`).
 4. Push to the branch (`git push origin feature/awesome-feature`).
 5. Open a pull request.
+
+
+
+
+python -m slicesim example-input.yml

@@ -20,7 +20,8 @@ class Graph:
         self.output_dpi = output_dpi
         self.scatter_size = scatter_size
         self.fig = plt.figure(figsize=(16,9))
-        self.fig.canvas.set_window_title('Network Slicing Simulation')
+        # self.fig.canvas.set_window_title('Network Slicing Simulation') 
+        self.fig.canvas.manager.set_window_title('Network Slicing Simulation')
 
         self.gs = gridspec.GridSpec(4, 3, width_ratios=[6, 3, 3])
 
@@ -75,7 +76,9 @@ class Graph:
                              shadow=True, ncol=5)
 
         for i in range(len(legend_indexed)):
-            leg.legendHandles[i].set_color('k')
+            # leg.legendHandles[i].set_color('k')
+            leg.legend_handles[i].set_color('k')
+
 
     def draw_stats(self, vals, vals1, vals2, vals3, vals4, vals5, vals6):
         self.ax1 = plt.subplot(self.gs[0, 1])
