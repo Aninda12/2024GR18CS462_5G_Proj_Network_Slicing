@@ -27,8 +27,7 @@ This simulator provides a playground to:
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/rohan-chandrashekar/5g-network-slicing-simulation.git
+    and then
     cd 5g-network-slicing-simulation
     ```
 
