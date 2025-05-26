@@ -3,6 +3,19 @@
 Welcome to the **5G Network Slicing Simulator** – a Python-powered simulation toolkit crafted to mimic and explore the behavior of network slicing in next-gen 5G infrastructure. This project allows researchers, students, and network enthusiasts to dive into how logical slices coexist and operate over a shared physical network, meeting diverse performance demands.
 
 ---
+
+## 🧠 About the Project
+
+**5G network slicing** is a game-changer in modern wireless communication, enabling operators to run multiple virtual networks – or *slices* – on top of a single physical infrastructure. Each slice is designed for a specific service type, balancing efficiency with tailored performance.
+
+This simulator provides a playground to:
+
+- Create and configure multiple network slices.
+- Dynamically allocate system resources (bandwidth, compute power, etc.).
+- Measure performance metrics like latency and throughput in real-time.
+
+
+
 ## ⚙️ Setup & Installation
 
 ### Requirements
@@ -69,11 +82,24 @@ Track and evaluate slices using:
 - **Latency** – End-to-end delay.
 - **Throughput** – Data transmission success rate.
 - **Utilization** – Efficiency of resource distribution among slices.
+
 ---
+
+### Contributing Workflow
+
+```bash
+# Step 1: Fork the repo
+# Step 2: Create a feature branch
+git checkout -b feature/your-feature-name
+
+# Step 3: Make changes and commit
+git commit -m "Describe your changes"
+
+# Step 4: Push and submit a PR
+git push origin feature/your-feature-name
 
 
 👥 Contributors
-
 Aninda Paul
 
 Ayush Kumar
